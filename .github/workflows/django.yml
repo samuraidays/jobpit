@@ -48,7 +48,7 @@ jobs:
 #      with:
 #        path: '.'
 #        bandit_flags: '-o bandit-results.sarif -f sarif'
-      uses: mdegis/bandit-action@v1
+      uses: mdegis/bandit-action@v1.0
       with: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         path: "."
